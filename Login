@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h2{padding-bottom:30px;}
+            input:hover{background-color:lightgrey;}
+             .row_style{margin-top:40px;}
+           
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row row_style">
+                <div class="col-xs-4">
+                     <div class="panel panel-default">
+                         <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h2><b>Login to your account</b></h2>
+                        <div class="panel-body">
+                    
+                    <form >
+                    
+                        <div class="form-group">
+                        <label for="Email">Email</label>
+                        <input type="text" class="form-control" name="Email">
+                        </div>
+						
+                         <div class="form-group">
+                        <label for="Password">Password</label>
+                        <input type="Password" class="form-control" name="Password" required>
+                        </div>
+                        <br>
+                         <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px;"> Remember me
+      </label><br>
+                        <div class="clearfix">
+						        <button type="submit" class="Login" style="color:black;">Login</button>
+
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn" style="color:black;">Cancel</button>
+
+      </div>
+                        <br><br>
+                        <button type="button" class="createact" style="color:black;">Create your account</button>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="facebaook.com" style="color:black;"><u> Forgot password?</u></a>
+                    </form>
+</div>
+                </div>
+                        </div>
+                       
+            </div>	
+    </div>
+        </div>
+    </body>
+</html>
+
+
